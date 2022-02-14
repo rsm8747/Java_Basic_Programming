@@ -1,0 +1,102 @@
+
+
+
+
+
+Data type :-
+
+int---10,20,30
+
+float--10.5 f   ,  2.5  f
+
+char--  'a'     ,      'h'
+
+
+
+
+variable:-
+
+variable is a container where we save some data .
+
+
+int     age;  // variable declaration                                  [30]    age
+
+age=25;  // variable initilization   
+
+
+age = 30 ;
+
+
+
+variable is name of memory location where we store some value .
+
+vary--change
+
+
+value stored in variable keeps on changing .  
+
+
+
+
+
+
+
+Functions:-
+
+
+function is a block consist of programming statements.
+
+Every function does some work .
+
+It may or may not return value .
+
+
+mostly , main() is a caller function    .   It calls other functions .
+
+
+int is return type of function .
+
+add is function name
+
+a & b are called as parameters .
+
+
+
+	int   add(int a  ,  int b)  
+	{
+		int c  ;    
+		
+		c=a+b  ;
+		
+		return c  ; // value of c variable will be given to caller function
+	}
+	
+	
+	void main(--)
+	{
+
+		int result = add(10,20) ;
+	
+		System.out.println(result);	
+
+	}
+
+
+
+return type  function name(data type param1 , data type param2...)
+
+{
+
+
+
+              // define the task which function is going to perform 
+
+   
+
+
+} // Funtion Finishes
+
+
+
+
+
