@@ -10,7 +10,9 @@ public class FunctionEx
 		
 		return c;
 	}
-	
+	public void addMethod(){
+		System.out.println("IM trying to edit your program file by adding this method");
+	}
 	
 	
 }// class FunctionEx ends
@@ -24,6 +26,7 @@ class TestFunction
 		int result=FunctionEx.add(10,20); // static methods are called using class name
 		
 		System.out.println(result);
-		
+		FunctionEx obj = new FunctionEx();
+		obj.addMethod();
 	}
 }
